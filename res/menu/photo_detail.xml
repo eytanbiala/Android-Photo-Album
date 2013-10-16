@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/add_tag"
+        android:icon="@drawable/collections_new_label"
+        android:showAsAction="always"
+        android:title="@string/add_tag"/>
+    <item
+        android:id="@+id/move_photo"
+        android:icon="@drawable/move"
+        android:showAsAction="ifRoom"
+        android:title="@string/move_photo"/>
+    <item
+        android:id="@+id/tags"
+        android:icon="@drawable/tags"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/tags"/>
+    <item
+        android:id="@+id/delete_photo"
+        android:icon="@drawable/content_discard"
+        android:showAsAction="collapseActionView"
+        android:title="@string/delete_photo"/>
+    <item
+        android:id="@+id/search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_action_search"
+        android:showAsAction="collapseActionView"
+        android:title="@string/search"/>
+
+</menu>

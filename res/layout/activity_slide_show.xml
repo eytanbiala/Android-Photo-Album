@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/previous"
+        style="?buttonBarButtonStyle"
+        android:layout_width="42dp"
+        android:layout_height="31dp"
+        android:background="@drawable/previous" />
+
+    <Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="232dp"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/next"
+        style="?buttonBarButtonStyle"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:background="@drawable/next" />
+
+</LinearLayout>

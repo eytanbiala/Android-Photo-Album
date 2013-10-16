@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/cancel"
+        android:showAsAction="always|withText"
+        android:title="@string/cancel"/>
+    <item
+        android:id="@+id/ok"
+        android:showAsAction="always|withText"
+        android:title="@string/save"/>
+
+</menu>
